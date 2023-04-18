@@ -85,7 +85,7 @@
 }
 
 .bg-img-importance {
-    min-height: 1200px;
+    min-height: 1100px;
     width:100%;
     object-fit: cover;
     filter: brightness(50%);
