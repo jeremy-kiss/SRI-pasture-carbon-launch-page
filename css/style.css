@@ -78,7 +78,7 @@
 
 
 .bg-img {
-    min-height: 10000px;
+    min-height: 900px;
     width:100%;
     object-fit: cover;
     filter: brightness(50%);
