@@ -24,7 +24,7 @@
     font-size: calc( 20px + 2vw);
     font-weight: bold;
     position: absolute;
-    top: 5%;
+    top: 4%;
     left: 5%;
     right: 30%;
     text-align:left; 
@@ -47,7 +47,7 @@
     font-family:Helvetica; 
     position: absolute;
     font-size: calc( 12px + 0.8vw) ;
-    top: 20%;
+    top: 17%;
     right: 30%;
     left: 5%;
     text-align:left; 
@@ -68,24 +68,18 @@
 
 
 
-
 /* Background images  */
 
 .bg-img-title {
-    height: 100%;
-    object-fit: fill;
+
+    width:100%; 
+    filter: brightness(100%);
 }
 
 
-.bg-img-project {
+
+.bg-img {
     min-height: 800px;
-    width:100%;
-    object-fit: cover;
-    filter: brightness(50%);
-}
-
-.bg-img-importance {
-    min-height: 1100px;
     width:100%;
     object-fit: cover;
     filter: brightness(50%);
@@ -97,9 +91,14 @@
 
 /* FORMS */
 
+.form{
+    background-color: white;
+    padding: 2%
+}
+
 .form-header{
     font-family:Arial; 
-    font-size: 3vw;
+    font-size: calc( 16px + 2vw);
     font-weight: bold;
     padding: 2%;
     padding-left: 15%;
@@ -112,7 +111,6 @@
     padding-bottom:2%;
     padding-left: 15%;
     padding-right: 15%;
-    
 
     }
 
@@ -121,7 +119,7 @@ iframe {
     display: block;
     border-style:none;
     margin: 0 auto;
-    background-color: #777;
+    background-color: #e4f3e5;
 }
 
 
@@ -150,6 +148,7 @@ iframe {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 10px;
+    background-color: white;
     }
 
 /* Create two equal columns that sits next to each other */
