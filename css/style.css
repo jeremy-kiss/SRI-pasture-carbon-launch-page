@@ -77,8 +77,15 @@
 }
 
 
-.bg-img {
-    min-height: 900px;
+.bg-img-project {
+    min-height: 800px;
+    width:100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.bg-img-importance {
+    min-height: 1200px;
     width:100%;
     object-fit: cover;
     filter: brightness(50%);
