@@ -1,4 +1,3 @@
-
 body {
     background-color: white;
   }
@@ -17,8 +16,6 @@ body {
     filter: brightness(100%);
 }
 
-
-
 .title {
     font-family:Arial; 
     font-size:5vw;
@@ -31,11 +28,7 @@ body {
     }
 
 
-
-
-
 /* Background images and Text - MEDIA responsive  */
-
 
 .text_header{
     font-family:Arial; 
@@ -56,7 +49,6 @@ body {
     right: 30%;
 }
 
-
 .img-text {
     font-family:Helvetica; 
     position: absolute;
@@ -71,12 +63,10 @@ body {
     left: 40%;
 }
 
-
 .img-text.img-text-left{
     right: 30%; 
     left: 5%;
 }
-
 
 .bg-img{
     min-height: 900px;
@@ -86,11 +76,9 @@ body {
 }
 
 
-
-
 /*  Mobile version     */
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
 
     .text_header.header_right{
         top: 10%;
@@ -123,9 +111,6 @@ body {
     }
         
 } 
-
-
-
 
 
 
@@ -166,10 +151,7 @@ iframe {
 
 
 
-
-
 /* PARTNER LOGOS */
-
 
 * {
     box-sizing: border-box;
@@ -181,8 +163,6 @@ iframe {
   }
  
   
-
-
 .row {
     display: -ms-flexbox; /* IE10 */
     -ms-flex-pack: center;
