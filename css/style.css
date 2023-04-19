@@ -11,6 +11,15 @@ body {
     }
       
 
+
+.bg-img-title {
+
+    width:100%; 
+    filter: brightness(100%);
+}
+
+
+
 .title {
     font-family:Arial; 
     font-size:5vw;
@@ -21,6 +30,16 @@ body {
     right: 5%;
     text-align:left; 
     }
+
+
+
+
+
+/* Background images and Text - MEDIA responsive  */
+
+
+/* Desktop version */ 
+
 
 
 .header_left {
@@ -62,24 +81,11 @@ body {
     font-family:Helvetica; 
     position: absolute;
     font-size:calc( 14px + 1.2vw) ;
-    top: 20%;
+    top: 15%;
     right: 5%;
     left: 40%;
     text-align:left; 
     }
-
-
-
-
-
-/* Background images  */
-
-.bg-img-title {
-
-    width:100%; 
-    filter: brightness(100%);
-}
-
 
 
 .bg-img-project {
@@ -96,6 +102,87 @@ body {
     object-fit: cover;
     filter: brightness(50%);
 }
+
+
+
+
+/*  Mobile version     */
+
+@media only screen and (max-width: 600px) {
+
+    .header_left {
+        font-family:Arial; 
+        font-size: calc( 24px + 2vw);
+        font-weight: bold;
+        position: absolute;
+        top: 4%;
+        left: 5%;
+        right: 5%;
+        text-align:left; 
+    
+    }
+    .header_right {
+        font-family:Arial; 
+        font-size: calc( 24px + 2vw);
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        text-align:left; 
+    
+    }
+    
+
+
+    .img-text-left {
+        font-family:Helvetica; 
+        position: absolute;
+        font-size: calc( 14px + 1.2vw) ;
+        top: 15%;
+        right: 5%;
+        left: 5%;
+        text-align:left; 
+        }
+    
+    
+    .img-text-right {
+        font-family:Helvetica; 
+        position: absolute;
+        font-size:calc( 14px + 1.2vw) ;
+        top: 15%;
+        right: 5%;
+        left: 5%;
+        text-align:left; 
+        }
+    
+    
+    .bg-img-project {
+        min-height: 1000px;
+        width:100%;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+    
+    
+    .bg-img-importance {
+        min-height: 1000px;
+        width:100%;
+        object-fit: cover;
+        filter: brightness(50%);
+    }
+
+
+
+
+} 
+
+
+
+
+
+
+
+
 
 
 
@@ -134,6 +221,7 @@ iframe {
     margin: 0 auto;
     background-color: #e4f3e5;
 }
+
 
 
 
