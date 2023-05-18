@@ -65,7 +65,7 @@ body {
 }
 
 .img-text.img-text-left{
-    right: 30%; 
+    right: 40%; 
     left: 5%;
 }
 
@@ -110,6 +110,8 @@ body {
         right: 5%;
         left: 5%;
     }
+
+
         
 } 
 
@@ -138,7 +140,6 @@ body {
     padding-bottom:2%;
     padding-left: 10%;
     padding-right: 10%;
-
     }
 
 
@@ -190,6 +191,7 @@ iframe {
     vertical-align: middle;
     width: 90%;
     max-width: 500px;
+
   }
 
 
